@@ -6,7 +6,7 @@ apt-get install git libcurl4-gnutls-dev libicu-dev libmcrypt-dev libvpx-dev libj
 
 # Install mysql driver
 # Here you can install any other extension that you need
-docker-php-ext-install mbstring mcrypt pdo_mysql curl json intl gd xml zip bz2 opcache bcmath
+docker-php-ext-install mbstring mcrypt pdo_mysql curl json intl gd xml zip bz2 opcache bcmath imagick
 
 # Install phpunit, the tool that we will use for testing
 curl -Lo /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar
